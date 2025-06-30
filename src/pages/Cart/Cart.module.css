@@ -1,0 +1,71 @@
+.headling {
+    margin-bottom: 40px;
+}
+
+.promocode {
+    max-width: 712px;
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.input-promocode {
+    width: 680px;
+    border-radius: 100%;
+}
+
+.button-promocode {
+    position: absolute;
+    top: 8px;
+    height: 44px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+}
+
+.line {
+    max-width: 712px;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0;
+}
+
+.line span {
+    color: #9796A1;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hr {
+    max-width: 712px;
+    margin: 0;
+    border: 1px solid #F1F2F3;
+}
+
+.text {
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price {
+    color: var(--text);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.total-count {
+    color: #BEBEBE;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.checkout {
+    max-width: 712px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}

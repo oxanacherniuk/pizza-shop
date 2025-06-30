@@ -1,0 +1,78 @@
+.about-head {
+    display: flex;
+}
+
+.about-box {
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+}
+
+.back-button {
+    margin-right: 25px;
+    background: var(--white);
+    filter: drop-shadow(5px 10px 20px rgba(211, 209, 216, .4));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 48px;
+    transition: 0.2s;
+}
+
+.back-button:hover {
+    background: var(--white);
+    filter: drop-shadow(5px 10px 20px rgba(254, 111, 34, 0.4));
+}
+
+.about-img  {
+    max-width: 500px;
+    border-radius: 28px;
+    display: block;
+}
+
+.about-text p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-right: 35px;
+}
+
+.text-primary {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.about-inner {
+    margin-top: 55px;
+}
+
+.ingridients-text {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.ingridients-box {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.ingridients-card {
+    padding: 20px;
+    border-radius: 28px;
+    background-color: rgba(254, 114, 76, .2);
+}
+
+.ingridients-card h2 {
+    font-size: 28px;
+    color: var(--primary);
+}
+
+.ingridients-card p {
+    max-width: 600px;
+    font-size: 20px;
+    color: var(--black);
+}

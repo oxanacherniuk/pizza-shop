@@ -1,0 +1,16 @@
+.contacts-box {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.column-title {
+    color: var(--primary);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contacts-column img {
+    height: 12px;
+}
